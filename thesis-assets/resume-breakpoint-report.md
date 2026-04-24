@@ -51,7 +51,7 @@
 - 前端类型检查与生产构建：通过
   - 命令：`npm run build`
 - MySQL 连接：通过
-  - 使用 `root/mysql123456` 可连接
+  - 使用本地 MySQL 账号可连接
   - `interview_system` 数据库可用
 - 认证前置验证：通过
   - 注册测试用户成功

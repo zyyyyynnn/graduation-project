@@ -1,0 +1,88 @@
+---
+title: 图 3-3 数据库 E-R 图
+config:
+  theme: base
+  themeVariables:
+    background: "#FAF8F2"
+    primaryColor: "#EFE6DD"
+    primaryBorderColor: "#B79A8B"
+    primaryTextColor: "#252525"
+    lineColor: "#8F8178"
+    secondaryColor: "#F6F0E8"
+    tertiaryColor: "#FBFAF6"
+    fontFamily: "Microsoft YaHei, SimHei, Arial, sans-serif"
+    fontSize: "16px"
+---
+erDiagram
+  direction TB
+  用户 ||--o{ 简历 : owns
+  用户 ||--o{ 面试会话 : starts
+  简历 ||--o{ 面试会话 : used_by
+  岗位模板 ||--o{ 面试会话 : configures
+  面试会话 ||--o{ 面试消息 : contains
+  面试会话 ||--o{ 面试阶段 : tracks
+  面试会话 ||--o| 评分历史 : produces
+  面试会话 ||--o{ 薄弱点 : produces
+
+  用户 {
+    bigint id PK
+    varchar username UK
+    varchar password
+    varchar email
+    varchar llm_provider
+    varchar llm_model
+  }
+
+  简历 {
+    bigint id PK
+    bigint user_id FK
+    varchar file_name
+    text parsed_result
+    mediumtext raw_text
+  }
+
+  岗位模板 {
+    bigint id PK
+    varchar name UK
+    text system_prompt
+  }
+
+  面试会话 {
+    bigint id PK
+    bigint user_id FK
+    bigint resume_id FK
+    bigint position_id FK
+    enum status
+    text summary_report
+  }
+
+  面试消息 {
+    bigint id PK
+    bigint session_id FK
+    enum role
+    text content
+    int seq_num
+  }
+
+  面试阶段 {
+    bigint id PK
+    bigint session_id FK
+    enum stage_name
+    datetime started_at
+    datetime ended_at
+  }
+
+  评分历史 {
+    bigint id PK
+    bigint session_id FK
+    tinyint technical_score
+    tinyint expression_score
+    tinyint logic_score
+  }
+
+  薄弱点 {
+    bigint id PK
+    bigint session_id FK
+    varchar category
+    text description
+  }

@@ -1,0 +1,16 @@
+# 最终证据锁版记录
+
+| 素材类型 | 素材名称 | 采集日期 | 对应代码版本标识 | 是否已同步到论文 | 是否已同步到 PPT | 是否已同步到答辩讲解 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 截图 | `docs/images/login.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步，论文待选用 | 否 | 否 | 登录页展示图 |
+| 截图 | `docs/images/interview-workbench.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步，论文待选用 | 否 | 否 | 主工作台展示图 |
+| 截图 | `docs/images/interview-report.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步，论文待选用 | 否 | 否 | 报告展示图 |
+| 截图 | `docs/images/replay.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步，论文待选用 | 否 | 否 | 回放页展示图 |
+| 截图 | `docs/images/analytics.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步，论文待选用 | 否 | 否 | 数据看板展示图 |
+| 图表 | 图 3-1 系统整体架构图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 是 | 否 | 否 | 由 `fig-3-1-system-architecture.mmd` 渲染生成 |
+| 图表 | 图 3-2 系统核心用例图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 是 | 否 | 否 | 由 `fig-3-2-core-use-case.mmd` 渲染生成 |
+| 图表 | 图 3-3 数据库 E-R 图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 是 | 否 | 否 | 由 `fig-3-3-database-er.mmd` 渲染生成 |
+| 测试数据 | `thesis-assets/test-data/test-evidence-2026-04-24.md` | 2026-04-24 | 本机验证结果 | 是 | 否 | 否 | 已含环境、后端测试和前端构建 |
+| 测试数据 | `thesis-assets/test-data/demo-business-test-2026-04-25.md` | 2026-04-25 | Demo Twin 本机业务测试 | 是 | 否 | 否 | `TC-01` 到 `TC-09` 通过；含 SSE TTFB 与 PDF 接口耗时 |
+| 实现证据 | `thesis-assets/code-snippets/implementation-evidence-2026-04-24.md` | 2026-04-24 | 当前代码结构 | 是 | 否 | 否 | 已同步到第四章实现证据来源 |
+| Bug 记录 | `thesis-assets/bug-package-2026-04-24.md` | 2026-04-24 | 当前开发过程记录 | 是 | 否 | 是 | 已选 Bug 1 与 Bug 2 作为论文/答辩主讲候选 |

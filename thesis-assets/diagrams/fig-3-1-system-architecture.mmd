@@ -1,0 +1,57 @@
+---
+title: 图 3-1 系统整体架构图
+config:
+  theme: base
+  layout: elk
+  themeVariables:
+    background: "#FAF8F2"
+    primaryColor: "#EFE6DD"
+    primaryBorderColor: "#B79A8B"
+    primaryTextColor: "#252525"
+    lineColor: "#8F8178"
+    secondaryColor: "#F6F0E8"
+    tertiaryColor: "#FBFAF6"
+    fontFamily: "Microsoft YaHei, SimHei, Arial, sans-serif"
+    fontSize: "16px"
+---
+flowchart LR
+  subgraph access["访问层"]
+    direction TB
+    user["用户浏览器"]
+  end
+
+  subgraph frontend["前端层"]
+    direction TB
+    ui["Vue 3 前端<br/>页面交互 / SSE 接收"]
+  end
+
+  subgraph backend["后端层"]
+    direction TB
+    api["Spring Boot API<br/>认证 / 会话 / 简历解析<br/>面试编排 / 报告生成"]
+  end
+
+  subgraph services["数据与外部服务层"]
+    direction TB
+    mysql[("MySQL 数据库")]
+    pdf["PDFBox 解析"]
+    llm["LLM Provider"]
+    demo["Demo Twin"]
+  end
+
+  user --> ui
+  ui --> api
+  api --> mysql
+  api --> pdf
+  api --> llm
+  api --> demo
+  demo --> mysql
+  api -. "SSE 流式返回" .-> ui
+
+  classDef layer fill:#FBFAF6,stroke:#DED8CD,color:#252525
+  classDef main fill:#EFE6DD,stroke:#B79A8B,color:#252525
+  classDef node fill:#F6F0E8,stroke:#C8B7AA,color:#252525
+  classDef store fill:#EEE7DC,stroke:#A89183,color:#252525
+  class access,frontend,backend,services layer
+  class api main
+  class user,ui,pdf,llm,demo node
+  class mysql store

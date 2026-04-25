@@ -16,7 +16,7 @@
 - 是否有封面、目录、页眉页脚、查重或提交命名要求
 
 当前状态：
-- 已提供（待你审查）
+- 已提供（待终稿前统一核查）
 
 ## B. 文献包
 
@@ -28,7 +28,7 @@
 - 推荐每批 3 到 8 篇
 
 当前状态：
-- 已提供（待你审查）
+- 已提供（待终稿前统一核查）
 
 ## C. 素材包
 
@@ -41,7 +41,9 @@
 - 最终证据锁版记录（如有）
 
 当前状态：
-- 未提供 / 补充中 / 已提供
+- 补充中
+- 已有：`docs/images/` 展示截图、`output/demo/screenshots/` Demo 截图产物、README Mermaid 架构图、`docs/api.md` 接口清单、`thesis-assets/diagrams/*.mmd`、第三章图表 PNG、`thesis-assets/figure-table-register.md`、`thesis-assets/code-snippets/implementation-evidence-2026-04-24.md`、`thesis-assets/test-data/demo-business-test-2026-04-25.md`
+- 缺少：真实公网 LLM 性能测试数据（如需写入性能对比）
 
 ## D. Bug 包
 
@@ -52,7 +54,9 @@
 - 教训
 
 当前状态：
-- 未提供 / 补充中 / 已提供
+- 补充中
+- 已有：`thesis-assets/bug-package-2026-04-24.md`、`thesis-assets/bug-evidence/bug-01-demo-proxy-evidence.md`、`thesis-assets/bug-evidence/bug-02-mysql-preflight-evidence.md`
+- 缺少：若需要放入 PPT，可再补两张截图化证据页
 
 ## E. 答辩包
 
@@ -63,7 +67,9 @@
 - 已知薄弱点或老师可能追问的点
 
 当前状态：
-- 未提供 / 补充中 / 已提供
+- 补充中
+- 已有：Demo Twin 演示链路、README 展示截图、GitHub 仓库门面、CI 验证入口、`thesis-assets/defense-package-2026-04-25.md`
+- 缺少：PPT 页级映射表和正式讲稿
 
 ## 最低开工集合
 

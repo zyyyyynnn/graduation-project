@@ -1,0 +1,108 @@
+{
+  "rows": [
+    {
+      "id": "TC-01",
+      "module": "简历上传",
+      "operation": "上传合法 PDF 简历",
+      "expected": "系统完成解析并展示技能、项目结果",
+      "actual": "上传成功，返回 resumeId=59，浏览器记录耗时 36 ms",
+      "pass": true
+    },
+    {
+      "id": "TC-02",
+      "module": "文件校验",
+      "operation": "上传非 PDF 文件",
+      "expected": "系统拒绝上传并提示文件类型错误",
+      "actual": "已拒绝，HTTP 400，提示：仅支持 PDF 文件",
+      "pass": true
+    },
+    {
+      "id": "TC-03",
+      "module": "面试初始化",
+      "operation": "选择岗位并开始面试",
+      "expected": "创建会话成功，写入首条 system 消息",
+      "actual": "创建成功，会话 ID=121",
+      "pass": true
+    },
+    {
+      "id": "TC-04",
+      "module": "流式对话",
+      "operation": "提交一轮用户回答",
+      "expected": "前端逐段接收模型回复并正常展示",
+      "actual": "SSE 返回成功，首个 chunk 59 ms，总耗时 198 ms",
+      "pass": true
+    },
+    {
+      "id": "TC-05",
+      "module": "报告生成",
+      "operation": "点击结束面试",
+      "expected": "系统生成 Markdown 报告并更新会话状态",
+      "actual": "报告生成成功，长度 303 字符",
+      "pass": true
+    },
+    {
+      "id": "TC-06",
+      "module": "边界输入",
+      "operation": "提交空内容",
+      "expected": "前端拦截或后端提示错误，不进入异常状态",
+      "actual": "已拒绝，HTTP 200，提示：无",
+      "pass": true
+    },
+    {
+      "id": "TC-07",
+      "module": "权限校验",
+      "operation": "未登录访问受保护接口",
+      "expected": "系统拒绝访问并提示登录失效或未授权",
+      "actual": "已拒绝，HTTP 401，提示：请先登录",
+      "pass": true
+    },
+    {
+      "id": "TC-08",
+      "module": "数据隔离",
+      "operation": "尝试访问他人会话",
+      "expected": "系统拒绝访问，不返回他人数据",
+      "actual": "已拒绝，HTTP 400，提示：面试会话不存在或无权访问",
+      "pass": true
+    },
+    {
+      "id": "TC-09",
+      "module": "SSE 异常恢复",
+      "operation": "流式过程中人为断流或异常中断",
+      "expected": "页面提示异常，发送按钮恢复可用",
+      "actual": "已模拟 AbortError=AbortError，重新发送成功",
+      "pass": true
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "PDF 上传/解析接口耗时",
+      "value": "36 ms",
+      "method": "浏览器 ResourceTiming，/api/resume/upload"
+    },
+    {
+      "metric": "SSE TTFB",
+      "value": "59 ms",
+      "method": "浏览器 fetch 读取 ReadableStream 首个 chunk"
+    },
+    {
+      "metric": "SSE 总耗时",
+      "value": "198 ms",
+      "method": "浏览器 fetch 完整读取流式响应"
+    }
+  ],
+  "reset": {
+    "status": 200,
+    "ok": true,
+    "body": {
+      "code": 200,
+      "message": "success",
+      "data": null
+    },
+    "durationMs": 81
+  },
+  "login": {
+    "status": 200,
+    "durationMs": 82
+  },
+  "generatedAt": "2026-04-25T13:14:36.070Z"
+}

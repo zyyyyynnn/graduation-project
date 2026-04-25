@@ -1,0 +1,63 @@
+---
+title: 图 3-2 系统核心用例图
+config:
+  theme: base
+  layout: elk
+  themeVariables:
+    background: "#FAF8F2"
+    primaryColor: "#EFE6DD"
+    primaryBorderColor: "#B79A8B"
+    primaryTextColor: "#252525"
+    lineColor: "#8F8178"
+    secondaryColor: "#F6F0E8"
+    tertiaryColor: "#FBFAF6"
+    fontFamily: "Microsoft YaHei, SimHei, Arial, sans-serif"
+    fontSize: "16px"
+---
+flowchart LR
+  user(("系统用户"))
+  entry["使用系统功能"]
+
+  subgraph account["账号与简历"]
+    direction TB
+    login["注册 / 登录"]
+    resume["上传并解析简历"]
+    login --> resume
+  end
+
+  subgraph interview["面试流程"]
+    direction TB
+    start["创建面试会话"]
+    chat["阶段化模拟面试"]
+    start --> chat
+  end
+
+  subgraph review["评估与回溯"]
+    direction TB
+    report["生成评估报告"]
+    replay["查看回放历史"]
+    analytics["查看能力分析"]
+    report --> replay
+    report --> analytics
+  end
+
+  subgraph config["系统配置"]
+    direction TB
+    settings["维护系统配置"]
+  end
+
+  user --> entry
+  entry --> login
+  entry --> start
+  entry --> report
+  entry --> settings
+  chat --> report
+
+  classDef actor fill:#EFE6DD,stroke:#B79A8B,color:#252525
+  classDef layer fill:#FBFAF6,stroke:#DED8CD,color:#252525
+  classDef node fill:#F6F0E8,stroke:#C8B7AA,color:#252525
+  classDef key fill:#EFE6DD,stroke:#A89183,color:#252525
+  class user,entry actor
+  class account,interview,review,config layer
+  class login,resume,start,report,replay,analytics,settings node
+  class chat key

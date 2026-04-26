@@ -9,9 +9,9 @@
 | 第 1 页 | 题目与个人信息 | 项目名称、系统名称 | 封面 | 简要说明课题是“基于 LLM 的模拟面试与简历诊断系统”。 | 按学校模板补姓名、专业、导师 |
 | 第 2 页 | 选题背景与问题 | 文献要点、就业面试训练场景 | 第一章 1.1-1.2 | 说明求职者需要低成本、可重复、可反馈的面试训练工具。 | 不堆长文献 |
 | 第 3 页 | 系统目标与业务闭环 | `docs/images/interview-workbench.png` | 第一章 1.3、第三章 3.1 | 强调系统覆盖简历、岗位、面试、报告、回放和分析，不是单点页面。 | 可接演示路线 |
-| 第 4 页 | 总体架构 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 第三章 3.2 | 讲清前端、后端、数据库、PDF 解析、LLM Provider 和 Demo Twin 的关系。 | 图 3-1 |
-| 第 5 页 | 核心用例 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 第三章 3.3 | 说明用户从登录到分析的主流程，以及配置和回放的辅助能力。 | 图 3-2 |
-| 第 6 页 | 数据库设计 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 第三章 3.4 | 重点讲用户、简历、会话、消息、阶段、评分和薄弱点之间的关系。 | 图 3-3 |
+| 第 4 页 | 总体架构 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 第三章 3.2 | 讲清前端、后端、数据库、PDF 解析、LLM Provider 和 Demo Twin 的关系。 | 图 3.1 |
+| 第 5 页 | 核心用例 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 第三章 3.3 | 说明用户从登录到分析的主流程，以及配置和回放的辅助能力。 | 图 3.2 |
+| 第 6 页 | 数据库设计 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 第三章 3.4 | 重点讲用户、简历、会话、消息、阶段、评分和薄弱点之间的关系。 | 图 3.3 |
 | 第 7 页 | 核心实现一：流式面试 | SSE 代码片段、对话页面截图 | 第四章 4.2 | 说明后端流式返回、前端 ReadableStream 接收和 `[DONE]` 收口。 | 可衔接技术追问 |
 | 第 8 页 | 核心实现二：简历解析与上下文控制 | PDF 解析、上下文截断代码片段 | 第四章 4.3-4.4 | 说明 PDFBox 提取文本、LLM 结构化解析和历史消息窗口截断。 | 避免展开过细代码 |
 | 第 9 页 | 测试验证 | `thesis-assets/test-data/demo-business-test-2026-04-25.md` | 第五章 | 展示 `TC-01` 到 `TC-09` 全通过，SSE TTFB 59 ms，PDF 接口耗时 36 ms。 | 明确 Demo Twin 口径 |
@@ -22,5 +22,5 @@
 ## 关键提示
 
 - 当前测试数据代表 Demo Twin 本机闭环，不代表真实公网 LLM 响应性能。
-- 若后续制作正式 PPT，应优先使用图 3-1 至图 3-3、主工作台截图、报告截图和两条 Bug 复盘。
+- 若后续制作正式 PPT，应优先使用图 3.1 至图 3.3、主工作台截图、报告截图和两条 Bug 复盘。
 - 每页讲解控制在 30 到 45 秒，现场演示页可适当延长。

@@ -7,9 +7,9 @@
 | 截图 | `docs/images/interview-report.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 将选作附录素材 | 否 | 否 | 报告展示图；不等同于学校终稿正文已选用 |
 | 截图 | `docs/images/replay.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 将选作附录素材 | 否 | 否 | 回放页展示图；不等同于学校终稿正文已选用 |
 | 截图 | `docs/images/analytics.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 将选作附录素材 | 否 | 否 | 数据看板展示图；不等同于学校终稿正文已选用 |
-| 图表 | 图 3-1 系统整体架构图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 是 | 否 | 否 | 由 `fig-3-1-system-architecture.mmd` 渲染生成 |
-| 图表 | 图 3-2 系统核心用例图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 是 | 否 | 否 | 由 `fig-3-2-core-use-case.mmd` 渲染生成 |
-| 图表 | 图 3-3 数据库 E-R 图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 是 | 否 | 否 | 由 `fig-3-3-database-er.mmd` 渲染生成 |
+| 图表 | 图 3.1 系统整体架构图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 是 | 否 | 否 | 由 `fig-3-1-system-architecture.mmd` 渲染生成 |
+| 图表 | 图 3.2 系统核心用例图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 是 | 否 | 否 | 由 `fig-3-2-core-use-case.mmd` 渲染生成 |
+| 图表 | 图 3.3 数据库 E-R 图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 是 | 否 | 否 | 由 `fig-3-3-database-er.mmd` 渲染生成 |
 | 测试数据 | `thesis-assets/test-data/test-evidence-2026-04-24.md` | 2026-04-24 | 本机验证结果 | 是 | 否 | 否 | 已含环境、后端测试和前端构建 |
 | 测试数据 | `thesis-assets/test-data/demo-business-test-2026-04-25.md` | 2026-04-25 | Demo Twin 本机业务测试 | 是 | 否 | 否 | `TC-01` 到 `TC-09` 通过；含 SSE TTFB 与 PDF 接口耗时 |
 | 实现证据 | `thesis-assets/code-snippets/implementation-evidence-2026-04-24.md` | 2026-04-24 | 当前代码结构 | 是 | 否 | 否 | 已同步到第四章实现证据来源 |

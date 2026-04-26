@@ -11,6 +11,7 @@
 | 总控 | `thesis-control.md` | 当前状态唯一总控；状态冲突时优先参考本文件和 `final-evidence-lock.md` |
 | 证据锁版 | `final-evidence-lock.md` | 记录截图、图表、测试、代码、文献和答辩证据是否同步 |
 | 补料状态 | `final-supplement-checklist.md` | 记录终稿前已完成、预留待测和可选补充内容 |
+| 资料清单 | `material-checklist.md` | 五类资料包状态：学校要求、文献、素材、Bug、答辩 |
 
 ## 文献材料
 
@@ -54,13 +55,32 @@
 | `defense-slide-map.md` | PPT 页级映射表 |
 | `defense-script-5-8min.md` | 5-8 分钟答辩讲稿 |
 
+## 阶段记录与历史文件
+
+以下文件用于保留论文推进过程，不作为当前状态判断依据；当前状态以 `thesis-control.md`、`final-evidence-lock.md` 和本 README 为准。
+
+| 文件类型 | 示例 | 处理规则 |
+| --- | --- | --- |
+| dated 阶段记录 | `thesis-next-step-2026-04-24.md`、`defense-package-2026-04-25.md` | 保留为阶段记录；如状态冲突，以当前总控为准 |
+| breakpoint 报告 | `*-breakpoint-report.md` | 保留为开发审查记录；不作为当前任务清单 |
+| cleanup 报告 | `*-cleanup-*.md`、`conditional-cleanup-strategy.md` | 保留为清稿过程记录；不作为终稿质量结论 |
+| 早期引用方案 | `citation-placement-plan.md`、`official-network-references-draft.md` | 保留为阶段记录；正式文献状态以 `references-draft.bib` 和 `literature-quality-review.md` 为准 |
+| 旧 DOCX | `毕业论文资料整合版.docx` | 历史快照，不再维护，不覆盖当前主稿 |
+
 ## 放置规则
 
 - `毕业论文正式草稿版.docx` 是当前主稿；后续修订应覆盖该文件。
 - `毕业论文资料整合版.docx` 只保留为历史快照，原则上不再维护。
 - 新增文献材料优先放入 `references-draft.bib`、`literature-quality-review.md` 和 `literature-evidence-map.md`。
 - 新增截图、图表、测试或代码证据后，应同步更新 `final-evidence-lock.md`。
+- 新增阶段报告应优先使用日期命名，并在完成后视为阶段记录，不要替代总控文件。
 - 不提交 Office 临时锁文件、一次性 ZIP 包和本地备份文件。
+
+## 不建议现在移动的内容
+
+- 不建议移动 dated 阶段记录，避免破坏已存在的交叉引用。
+- 不建议重命名 `毕业论文正式草稿版.docx`，避免后续提交和答辩材料路径混乱。
+- 不建议删除旧清稿报告，除非论文终稿和答辩材料均已完成。
 
 ## 仍需人工确认
 

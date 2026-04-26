@@ -41,9 +41,9 @@
 - 最终证据锁版记录（如有）
 
 当前状态：
-- 补充中
-- 已有：`docs/images/` 展示截图、`output/demo/screenshots/` Demo 截图产物、README Mermaid 架构图、`docs/api.md` 接口清单、`thesis-assets/diagrams/*.mmd`、第三章图表 PNG、`thesis-assets/figure-table-register.md`、`thesis-assets/code-snippets/implementation-evidence-2026-04-24.md`、`thesis-assets/test-data/demo-business-test-2026-04-25.md`
-- 缺少：真实公网 LLM 性能测试数据（如需写入性能对比）
+- 基本齐备
+- 已有：README 展示截图、Demo 截图产物、README Mermaid 架构图、接口清单、第三章图表源文件与 PNG、图表编号登记、核心代码片段、Demo 业务测试记录
+- 缺少：真实公网 LLM 性能测试数据（仅在需要写入真实性能对比时补充）
 
 ## D. Bug 包
 
@@ -67,9 +67,9 @@
 - 已知薄弱点或老师可能追问的点
 
 当前状态：
-- 补充中
-- 已有：Demo Twin 演示链路、README 展示截图、GitHub 仓库门面、CI 验证入口、`thesis-assets/defense-package-2026-04-25.md`
-- 缺少：PPT 页级映射表和正式讲稿
+- 基本齐备
+- 已有：Demo Twin 演示链路、README 展示截图、GitHub 仓库门面、CI 验证入口、答辩材料包、PPT 页级映射表和 5-8 分钟正式讲稿
+- 缺少：学校正式 PPT 模板页数要求或导师指定答辩结构（如有）
 
 ## 最低开工集合
 

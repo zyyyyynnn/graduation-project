@@ -23,7 +23,7 @@
 | --- | --- | --- | --- |
 | 答辩页映射 | PPT 页码、页面主题、证据材料、对应论文章节和讲解要点 | `thesis-assets/defense-slide-map.md` | 本轮补齐 |
 | 正式讲稿 | 5-8 分钟答辩讲稿 | `thesis-assets/defense-script-5-8min.md` | 本轮补齐 |
-| 论文资料整合版 | 六章正文、图表、截图、测试、代码、Bug、答辩材料、参考文献整合为 DOCX | `thesis-assets/毕业论文资料整合版.docx` | 本轮补齐 |
+| 论文正式草稿版 | 前置页、摘要、目录、六章正文、参考文献与附录整合为 DOCX | `thesis-assets/毕业论文正式草稿版.docx` | 本轮补齐 |
 
 ## C. 预留待测项
 

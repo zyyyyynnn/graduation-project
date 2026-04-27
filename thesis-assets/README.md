@@ -6,7 +6,7 @@
 
 | 类型 | 文件 | 说明 |
 | --- | --- | --- |
-| 论文主稿 | `毕业论文正式版（草稿）.docx` | 当前主要维护的论文草稿；已完成文献增强；封面、诚信责任书和任务书仍为占位 |
+| 论文主稿 | `毕业论文正式版（草稿）.docx` | 当前主要维护的论文草稿；已完成文献增强；封面和诚信责任书仍为占位 |
 | 历史快照 | `毕业论文资料整合.docx` | 早期资料整合版，仅作历史快照，不作为正式提交依据 |
 | 总控 | `thesis-control.md` | 当前状态唯一总控；状态冲突时优先参考本文件和 `final-evidence-lock.md` |
 | 证据锁版 | `final-evidence-lock.md` | 记录截图、图表、测试、代码、文献和答辩证据是否同步 |
@@ -17,7 +17,7 @@
 
 | 文件 | 说明 |
 | --- | --- |
-| `references-draft.bib` | 参考文献工作库；只写入可核验字段，不强行补造 |
+| `references-draft.bib` | 参考文献工作库；已按正文首次引用顺序前置排序；只写入可核验字段，不强行补造 |
 | `literature-quality-review.md` | 文献质量评估表，记录采用/不采用依据 |
 | `literature-evidence-map.md` | 文献证据映射表，记录文献与章节落位关系 |
 | `citation-placement-plan.md` | 早期引用落位方案，作为阶段记录 |
@@ -31,9 +31,9 @@
 | `chapter-01-introduction-draft.md` | 第一章绪论草稿 |
 | `chapter-02-related-tech-draft.md` | 第二章相关技术综述草稿 |
 | `chapter-03-analysis-design-draft.md` | 第三章系统分析与设计草稿 |
-| `chapter-04-implementation-draft.md` | 第四章系统实现草稿 |
-| `chapter-05-testing-draft.md` | 第五章系统测试草稿 |
-| `chapter-06-conclusion-abstract-draft.md` | 第六章总结与展望草稿 |
+| `chapter-04-implementation-draft.md` | 第四章系统实现草稿；已补入简历解析输入长度保护表述 |
+| `chapter-05-testing-draft.md` | 第五章系统测试草稿；已补入 LLM 配置连通性测试表述 |
+| `chapter-06-conclusion-abstract-draft.md` | 第六章总结与展望草稿；已补入单用户本机验证、模型降级和报告结构化输出展望 |
 | `abstract-keywords.md` | 中英文摘要与关键词 |
 
 ## 图表、测试和实现证据
@@ -86,6 +86,11 @@
 
 - 学校/学院正式封面模板。
 - 诚信责任书正式模板。
-- 毕业论文（设计）任务书正式模板。
 - 是否需要真实公网 LLM 性能测试。
 - 是否需要按导师要求调整答辩 PPT 页数和结构。
+
+## 当前任务书口径
+
+- 已读取的论文设计管理办法当前未将任务书列入论文主稿装订顺序。
+- 任务书不再作为当前终稿阻塞项或主稿占位项维护。
+- 若学院、导师或系统提交页面另行要求任务书，再作为单独归档附件处理，不并入当前论文主稿口径。

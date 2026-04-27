@@ -15,8 +15,9 @@
 | 构建验证 | 后端 `mvn -q test`、前端 `npm run build` | `thesis-assets/test-data/test-evidence-2026-04-24.md` | 已完成 |
 | 实现证据 | SSE 推送、PDF 解析、上下文截断核心代码片段 | `thesis-assets/code-snippets/implementation-evidence-2026-04-24.md` | 已完成 |
 | Bug 复盘 | Demo 代理错连、MySQL 启动前置校验 | `thesis-assets/bug-package-2026-04-24.md`、`thesis-assets/bug-evidence/` | 已完成 |
-| 文献增强 | 文献质量评估、文献证据映射、参考文献工作库 | `literature-quality-review.md`、`literature-evidence-map.md`、`references-draft.bib` | 已完成 |
+| 文献增强 | 文献质量评估、文献证据映射、参考文献工作库 | `literature-quality-review.md`、`literature-evidence-map.md`、`references-draft.bib` | 已完成；本轮已按正文首次引用顺序前置排序 |
 | 答辩基础材料 | 演示路线、亮点、难点、追问问答、风险预案 | `thesis-assets/defense-package-2026-04-25.md` | 已完成 |
+| 新增实现口径 | 简历解析输入长度保护、LLM 配置连通性测试、不足与展望补充 | `chapter-04-implementation-draft.md`、`chapter-05-testing-draft.md`、`chapter-06-conclusion-abstract-draft.md` | 已补入章节草稿 |
 
 ## B. 本轮新增整合项
 
@@ -32,16 +33,21 @@
 | --- | --- | --- |
 | 学校/学院正式封面模板 | 当前 DOCX 中仍为占位页，不能作为最终提交版 | 阻塞正式提交 |
 | 诚信责任书模板 | 当前 DOCX 中仍为占位页，需替换为学校或学院标准模板 | 阻塞正式提交 |
-| 毕业论文（设计）任务书模板 | 当前 DOCX 中仍为占位页，需替换为指导教师或学院下发模板 | 阻塞正式提交 |
 | 目录页码 | 文献增强后页码可能变化，需在 Word 中更新目录域或手工校正 | 阻塞正式提交 |
 
-## D. 预留待测项
+## D. 本轮移除项
+
+| 类别 | 处理口径 | 说明 |
+| --- | --- | --- |
+| 毕业论文（设计）任务书模板 | 从当前终稿阻塞项中移除 | 已读取的论文设计管理办法当前未将任务书列入论文主稿装订顺序；除非学院或导师另行要求，不再作为当前主稿占位和补料项 |
+
+## E. 预留待测项
 
 | 类别 | 当前口径 | 是否阻塞终稿 |
 | --- | --- | --- |
 | 真实公网 LLM 性能 | 当前第五章仅采用 Demo Twin 本机闭环测试数据；公网模型响应性能受网络、模型服务负载和上下文长度影响，后续如需要性能对比再单独采集。 | 不阻塞当前草稿；仅在导师要求性能对比时补充 |
 
-## E. 可选补充项
+## F. 可选补充项
 
 | 类别 | 建议 | 使用场景 |
 | --- | --- | --- |

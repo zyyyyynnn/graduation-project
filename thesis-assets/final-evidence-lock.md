@@ -4,11 +4,11 @@
 
 | 素材类型 | 素材名称 | 采集日期 | 对应代码版本标识 | 是否已同步到论文 | 是否已同步到 PPT | 是否已同步到答辩讲解 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 截图 | `docs/images/login.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 可选作附录素材 | 否 | 否 | 登录页展示图；不等同于学校终稿正文已选用 |
-| 截图 | `docs/images/interview-workbench.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 可选作附录素材 | 否 | 否 | 主工作台展示图；不等同于学校终稿正文已选用 |
-| 截图 | `docs/images/interview-report.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 可选作附录素材 | 否 | 否 | 报告展示图；不等同于学校终稿正文已选用 |
-| 截图 | `docs/images/replay.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 可选作附录素材 | 否 | 否 | 回放页展示图；不等同于学校终稿正文已选用 |
-| 截图 | `docs/images/analytics.png` | 2026-04-24 | GitHub main 当前版本 | README 已同步；正式草稿版 DOCX 可选作附录素材 | 否 | 否 | 数据看板展示图；不等同于学校终稿正文已选用 |
+| 截图 | `docs/images/login.png` | 2026-04-28 | `codex/session-menu-cleanup` | README 已同步；正式草稿版 DOCX 由人工侧自行处理 | 否 | 否 | 登录页展示图；不等同于学校终稿正文已选用 |
+| 截图 | `docs/images/interview-workbench.png` | 2026-04-28 | `codex/session-menu-cleanup` | README 已同步；正式草稿版 DOCX 由人工侧自行处理 | 否 | 否 | 主工作台展示图；已覆盖多岗位 Demo 会话；不等同于学校终稿正文已选用 |
+| 截图 | `docs/images/interview-report.png` | 2026-04-28 | `codex/session-menu-cleanup` | README 已同步；正式草稿版 DOCX 由人工侧自行处理 | 否 | 否 | 报告展示图；不等同于学校终稿正文已选用 |
+| 截图 | `docs/images/replay.png` | 2026-04-28 | `codex/session-menu-cleanup` | README 已同步；正式草稿版 DOCX 由人工侧自行处理 | 否 | 否 | 回放页展示图；不等同于学校终稿正文已选用 |
+| 截图 | `docs/images/analytics.png` | 2026-04-28 | `codex/session-menu-cleanup` | README 已同步；正式草稿版 DOCX 由人工侧自行处理 | 否 | 否 | 数据看板展示图；不等同于学校终稿正文已选用 |
 | 图表 | 图3.1 系统整体架构图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-1-system-architecture.png` | 是 | 否 | 否 | 由 `fig-3-1-system-architecture.mmd` 渲染生成 |
 | 图表 | 图3.2 系统核心用例图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-2-core-use-case.png` | 是 | 否 | 否 | 由 `fig-3-2-core-use-case.mmd` 渲染生成 |
 | 图表 | 图3.3 数据库 E-R 图 | 2026-04-25 | `thesis-assets/diagrams/fig-3-3-database-er.png` | 是 | 否 | 否 | 由 `fig-3-3-database-er.mmd` 渲染生成 |

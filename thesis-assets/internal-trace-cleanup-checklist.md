@@ -1,5 +1,7 @@
 # 正文内部痕迹清理清单
 
+> 历史记录：本文件保留早期内部痕迹清理判断，不作为当前状态依据。当前章节清稿、图表编号和测试证据以 `thesis-control.md`、`figure-table-register.md`、`chapter-03-analysis-design-draft.md` 和 `chapter-05-testing-draft.md` 为准。
+
 ## 当前目标
 
 本清单用于在不触碰真实测试数据、不改写技术事实的前提下，逐步清除草稿阶段残留的内部协作痕迹，降低后续终稿整理时的返工成本。

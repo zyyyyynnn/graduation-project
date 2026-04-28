@@ -1,5 +1,7 @@
 # 全卷打磨与格式核查报告
 
+> 历史记录：本文件保留早期格式核查结论，不作为当前状态依据。当前封面、诚信责任书、图表编号、测试证据和终稿卡点以 `thesis-control.md`、`final-supplement-checklist.md`、`figure-table-register.md` 和 `final-evidence-lock.md` 为准。
+
 ## 本轮检查范围
 
 本轮检查已覆盖以下内容：

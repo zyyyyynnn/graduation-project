@@ -1,5 +1,7 @@
 # 第一轮低风险清稿记录
 
+> 历史记录：本文件保留早期低风险清理过程，不作为当前状态依据。当前图表编号、测试证据和终稿卡点以 `thesis-control.md`、`figure-table-register.md`、`final-supplement-checklist.md` 和 `final-evidence-lock.md` 为准。
+
 ## 本轮范围
 
 本轮仅处理低风险、机械性的正文清理，不改动技术事实、不改动引文锚点、不改动测试占位与图表占位。

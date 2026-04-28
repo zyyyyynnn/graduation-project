@@ -1,5 +1,7 @@
 # 第三章与第五章条件性清稿策略
 
+> 历史记录：本文件保留早期清稿策略，不作为当前状态依据。当前图表编号、测试证据和终稿卡点以 `thesis-control.md`、`figure-table-register.md`、`final-supplement-checklist.md` 和 `final-evidence-lock.md` 为准。
+
 ## 目标
 
 本文件用于明确第三章、第五章为什么暂时不能像第一章、第二章、第六章那样直接做低风险清稿，以及它们各自进入正式清稿前所必须满足的条件。

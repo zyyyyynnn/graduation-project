@@ -44,7 +44,7 @@
 | 操作系统 | Microsoft Windows 11 专业版 10.0.26200 |
 | JDK | OpenJDK 21.0.4 2024-07-16 LTS |
 | Maven | Apache Maven 3.9.11 |
-| Node.js | v22.15.1 |
+| Node.js | v24.15.0 |
 | npm | 11.6.0 |
 | MySQL 客户端 | MySQL 8.0.45 for Win64 |
 | MySQL 服务端 | 8.0.45 |

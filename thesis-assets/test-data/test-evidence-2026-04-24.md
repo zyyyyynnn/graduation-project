@@ -8,7 +8,7 @@
 | PowerShell | 7.6.1 |
 | JDK | OpenJDK 21.0.4 Microsoft build |
 | Maven | Apache Maven 3.9.11 |
-| Node.js | v22.15.1 |
+| Node.js | v24.15.0 |
 | npm | 11.6.0 |
 | MySQL 客户端 | MySQL Community Server 8.0.45 |
 | 浏览器 | Microsoft Edge 147.0.3912.72 |
@@ -19,7 +19,7 @@
 | 验证项 | 命令 | 实测结果 | 是否通过 |
 | --- | --- | --- | --- |
 | 后端单元测试 | `mvn -q test` | 命令正常结束，仅出现 Java agent warning | 通过 |
-| 前端生产构建 | `npm run build` | `vue-tsc --noEmit && vite build` 成功，存在 chunk size warning | 通过 |
+| 前端生产构建 | `npm run build` | `vue-tsc --noEmit && vite build` 成功，未出现 chunk size warning | 通过 |
 
 ## 功能测试结果索引
 

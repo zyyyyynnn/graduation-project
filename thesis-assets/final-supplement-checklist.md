@@ -28,7 +28,7 @@
 | 答辩页映射 | PPT 页码、页面主题、证据材料、对应论文章节和讲解要点 | `thesis-assets/defense/defense-slide-map.md` | 已补齐 |
 | 正式讲稿 | 5-8 分钟答辩讲稿 | `thesis-assets/defense/defense-script-5-8min.md` | 已补齐 |
 | 论文正式草稿版 | 前置页、摘要、自动目录、六章正文、参考文献与附录整合为 DOCX | `thesis-assets/毕业论文正式版（草稿）.docx` | 已补齐；仍需人工字段、目录域、页码和版式终审 |
-| 当前 Word 工作稿 | 润色回填后的 Word 工作稿 | `thesis-assets/current/毕业论文正式版（润色回填）.docx` | 已归档；后续格式终审优先检查 |
+| 当前 Word 工作稿 | 已完成 Markdown 润色基准稿真实回填的 Word 工作稿 | `thesis-assets/current/毕业论文正式版（润色回填）.docx` | 已完成；后续进入 Word 格式终审 |
 | Markdown 润色基准稿 | 当前内容定版后的 Markdown 润色基准稿 | `thesis-assets/current/thesis-polished.md` | 已归档 |
 
 ## C. 仍需人工终审项
@@ -38,6 +38,7 @@
 | 封面人工字段 | 当前 DOCX 已包含封面页；指导教师、日期等字段需人工填写或确认 | 阻塞正式提交 |
 | 诚信责任书签名与日期 | 当前 DOCX 已包含诚信责任书页；作者签名和日期需人工完成 | 阻塞正式提交 |
 | 目录页码 | 当前 DOCX 已保留自动目录字段；正式提交前建议在 Word 中执行 `Ctrl+A` → `F9` 更新域并复核页码 | 阻塞正式提交 |
+| 页码、页眉页脚、图题表题与参考文献格式 | 当前 Word 工作稿已完成真实回填；仍需逐页复核格式 | 阻塞正式提交 |
 
 ## D. 本轮移除项
 

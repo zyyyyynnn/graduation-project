@@ -1,6 +1,6 @@
 # 正文内部痕迹清理清单
 
-> 历史记录：本文件保留早期内部痕迹清理判断，不作为当前状态依据。当前章节清稿、图表编号和测试证据以 `thesis-control.md`、`figure-table-register.md`、`chapter-03-analysis-design-draft.md` 和 `chapter-05-testing-draft.md` 为准。
+> 历史记录：本文件保留早期内部痕迹清理判断，不作为当前状态依据。当前章节清稿、图表编号和测试证据以 `thesis-control.md`、`evidence/figure-table-register.md`、`drafts/chapter-03-analysis-design-draft.md` 和 `drafts/chapter-05-testing-draft.md` 为准。
 
 ## 当前目标
 
@@ -12,12 +12,12 @@
 
 当前以下文件仍保留标题级草稿标记：
 
-- `chapter-01-introduction-draft.md`
-- `chapter-02-related-tech-draft.md`
-- `chapter-03-analysis-design-draft.md`
-- `chapter-04-implementation-draft.md`
-- `chapter-05-testing-draft.md`
-- `chapter-06-conclusion-abstract-draft.md`
+- `drafts/chapter-01-introduction-draft.md`
+- `drafts/chapter-02-related-tech-draft.md`
+- `drafts/chapter-03-analysis-design-draft.md`
+- `drafts/chapter-04-implementation-draft.md`
+- `drafts/chapter-05-testing-draft.md`
+- `drafts/chapter-06-conclusion-abstract-draft.md`
 
 处理建议：
 

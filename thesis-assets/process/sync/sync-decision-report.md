@@ -3,9 +3,9 @@
 ## 同步范围
 
 - 输入 Word：`thesis-assets/毕业论文正式版（草稿）.docx`
-- 输入报告：`thesis-assets/md-word-sync-report.md`
+- 输入报告：`thesis-assets/process/sync/md-word-sync-report.md`
 - 输入 Markdown：`abstract-keywords.md`、`chapter-01` 至 `chapter-06`
-- 输出目录：`thesis-assets/polish-source/`
+- 输出目录：`thesis-assets/process/sync/`
 
 ## 采用决策
 

@@ -35,8 +35,8 @@
 
 ## 截图证据
 
-- `thesis-assets/test-data/screenshots/tc-login-workbench.png`
-- `thesis-assets/test-data/screenshots/tc-after-business-flow.png`
+- `thesis-assets/evidence/test-data/screenshots/tc-login-workbench.png`
+- `thesis-assets/evidence/test-data/screenshots/tc-after-business-flow.png`
 
 ## 备注
 

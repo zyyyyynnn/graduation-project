@@ -6,7 +6,7 @@
 
 已处理文件：
 
-- `chapter-04-implementation-draft.md`
+- `drafts/chapter-04-implementation-draft.md`
 
 ## 本轮已完成的清理
 

@@ -1,98 +1,69 @@
 # thesis-assets 论文材料目录
 
-本目录用于存放毕业论文正文草稿、证据材料、文献材料、测试记录和答辩准备文件。
+本目录用于存放毕业论文当前交付物、论文证据、文献材料、测试记录、答辩准备文件和过程归档。当前状态判断以本文件、`thesis-control.md` 和 `final-evidence-lock.md` 为准。
 
-## 当前主文件
+## 当前主交付物
 
 | 类型 | 文件 | 说明 |
 | --- | --- | --- |
-| 论文主稿 | `毕业论文正式版（草稿）.docx` | 当前主要维护的论文草稿；已完成文献增强，封面和诚信责任书已并入；签名、日期、指导教师和目录页码仍需人工终审 |
-| 历史快照 | `毕业论文资料整合.docx` | 早期资料整合版，仅作历史快照，不作为正式提交依据 |
+| 原始主稿 / 格式母版 | `毕业论文正式版（草稿）.docx` | 原始主稿继续保留，不覆盖；用于保留 Word 结构、封面、诚信责任书和格式母版 |
+| 当前 Word 工作稿 | `current/毕业论文正式版（润色回填）.docx` | 回填润色内容后的 Word 工作稿；后续格式终审优先检查此文件 |
+| Markdown 润色基准稿 | `current/thesis-polished.md` | 当前内容定版后的 Markdown 润色基准稿 |
 | 总控 | `thesis-control.md` | 当前状态唯一总控；状态冲突时优先参考本文件和 `final-evidence-lock.md` |
 | 证据锁版 | `final-evidence-lock.md` | 记录截图、图表、测试、代码、文献和答辩证据是否同步 |
 | 补料状态 | `final-supplement-checklist.md` | 记录终稿前已完成、仍需人工终审、预留待测和可选补充内容 |
 | 资料清单 | `material-checklist.md` | 五类资料包状态：学校要求、文献、素材、Bug、答辩 |
 
-## 文献材料
+## 目录结构
 
-| 文件 | 说明 |
-| --- | --- |
-| `references-draft.bib` | 参考文献工作库；已按正文首次引用顺序前置排序；只写入可核验字段，不强行补造 |
-| `literature-quality-review.md` | 文献质量评估表，记录采用/不采用依据 |
-| `literature-evidence-map.md` | 文献证据映射表，记录文献与章节落位关系 |
-| `citation-placement-plan.md` | 早期引用落位方案，作为阶段记录 |
-| `official-source-register.md` | 官方来源登记 |
-| `official-network-references-draft.md` | 官方网络资源参考文献草案 |
-
-## 章节草稿
-
-| 文件 | 说明 |
-| --- | --- |
-| `chapter-01-introduction-draft.md` | 第一章绪论草稿 |
-| `chapter-02-related-tech-draft.md` | 第二章相关技术综述草稿 |
-| `chapter-03-analysis-design-draft.md` | 第三章系统分析与设计草稿 |
-| `chapter-04-implementation-draft.md` | 第四章系统实现草稿；已补入简历解析输入长度保护表述 |
-| `chapter-05-testing-draft.md` | 第五章系统测试草稿；已补入 LLM 配置连通性测试表述 |
-| `chapter-06-conclusion-abstract-draft.md` | 第六章总结与展望草稿；已补入单用户本机验证、模型降级和报告结构化输出展望 |
-| `abstract-keywords.md` | 中英文摘要与关键词 |
-
-## 图表、测试和实现证据
-
-| 目录/文件 | 说明 |
-| --- | --- |
-| `diagrams/` | 第三章 Mermaid 源文件和 PNG 图表 |
-| `figure-table-register.md` | 图表编号登记表；当前统一采用 `图3.1`、`表5.1` 格式 |
-| `test-data/` | 第五章测试环境、业务测试和性能采集记录 |
-| `code-snippets/` | 第四章核心实现证据 |
-| `bug-evidence/` | 真实 Bug 证据 |
-| `bug-package-2026-04-24.md` | Bug 复盘材料 |
-
-## 答辩材料
-
-| 文件 | 说明 |
-| --- | --- |
-| `defense-package-2026-04-25.md` | 答辩材料包 |
-| `defense-slide-map.md` | PPT 页级映射表 |
-| `defense-script-5-8min.md` | 5-8 分钟答辩讲稿 |
-| `贵州大学答辩PPT模板.pptx` | 学校答辩 PPT 模板；正式 PPT 尚未生成和排版 |
-
-## 阶段记录与历史文件
-
-以下文件用于保留论文推进过程，不作为当前状态判断依据；当前状态以 `thesis-control.md`、`final-evidence-lock.md` 和本 README 为准。
-
-| 文件类型 | 示例 | 处理规则 |
+| 目录 | 内容 | 维护规则 |
 | --- | --- | --- |
-| dated 阶段记录 | `thesis-next-step-2026-04-24.md`、`defense-package-2026-04-25.md` | 保留为阶段记录；如状态冲突，以当前总控为准 |
-| breakpoint 报告 | `*-breakpoint-report.md` | 保留为开发审查记录；不作为当前任务清单 |
-| cleanup 报告 | `*-cleanup-*.md`、`conditional-cleanup-strategy.md` | 保留为清稿过程记录；不作为终稿质量结论 |
-| 早期引用方案 | `citation-placement-plan.md`、`official-network-references-draft.md` | 保留为阶段记录；正式文献状态以 `references-draft.bib` 和 `literature-quality-review.md` 为准 |
-| 旧 DOCX | `毕业论文资料整合.docx` | 历史快照，不再维护，不覆盖当前主稿 |
+| `current/` | 当前 Word 工作稿和 Markdown 润色基准稿 | 后续人工格式终审和内容核对优先从这里进入 |
+| `drafts/` | 中英文摘要与第一章至第六章原始分章草稿 | 作为分章历史草稿保留，不替代 `current/` |
+| `process/sync/` | Word/Markdown 同步报告、同步稿和同步决策报告 | 用于追溯同步过程，不作为正文直接入口 |
+| `process/reports/` | cleanup、breakpoint、review、next-step、format-check 等过程报告 | 只保留过程信息；若与总控冲突，以当前索引为准 |
+| `literature/` | 参考文献库、文献质量评估、证据映射和官方来源登记 | 正式文献状态以 `references-draft.bib` 和质量评估为准 |
+| `evidence/` | 图表、测试、代码片段和 Bug 证据 | 新增证据后同步更新 `final-evidence-lock.md` |
+| `defense/` | 答辩材料包、PPT 页级映射表和讲稿 | PPT 模板当前未入库，需人工重新提供或从历史提交恢复 |
+| `archive/legacy-reports/` | 学校要求包、管理办法 PDF 和历史要求材料 | 作为核查依据保留，不作为当前交付物 |
+
+## 关键路径
+
+| 材料 | 路径 |
+| --- | --- |
+| 分章草稿 | `drafts/abstract-keywords.md`、`drafts/chapter-01-introduction-draft.md` 至 `drafts/chapter-06-conclusion-abstract-draft.md` |
+| 同步稿 | `process/sync/abstract-keywords.sync.md`、`process/sync/chapter-01.sync.md` 至 `process/sync/chapter-06.sync.md` |
+| 同步报告 | `process/sync/md-word-sync-report.md`、`process/sync/sync-decision-report.md` |
+| 图表登记 | `evidence/figure-table-register.md` |
+| 图表源文件与 PNG | `evidence/diagrams/` |
+| 测试证据 | `evidence/test-data/` |
+| 核心代码证据 | `evidence/code-snippets/` |
+| Bug 证据 | `evidence/bug-package-2026-04-24.md`、`evidence/bug-evidence/` |
+| 文献工作库 | `literature/references-draft.bib` |
+| 文献质量与映射 | `literature/literature-quality-review.md`、`literature/literature-evidence-map.md` |
+| 学校要求归档 | `archive/legacy-reports/school-requirements-package.md`、`archive/legacy-reports/贵州大学毕业论文（设计）管理办法.pdf` |
+| 答辩材料 | `defense/defense-package-2026-04-25.md`、`defense/defense-slide-map.md`、`defense/defense-script-5-8min.md` |
+
+## 缺失或未恢复材料
+
+| 文件 | 当前状态 |
+| --- | --- |
+| `毕业论文资料整合.docx` | 历史中已删除，当前不恢复；不再作为当前状态依据 |
+| `贵州大学答辩PPT模板.pptx` | 当前未入库；如需使用，需人工重新提供或从历史提交恢复到 `thesis-assets/defense/贵州大学答辩PPT模板.pptx` |
 
 ## 放置规则
 
-- `毕业论文正式版（草稿）.docx` 是当前主稿；后续修订应覆盖该文件。
-- `毕业论文资料整合.docx` 只保留为历史快照，原则上不再维护。
-- 新增文献材料优先放入 `references-draft.bib`、`literature-quality-review.md` 和 `literature-evidence-map.md`。
+- `毕业论文正式版（草稿）.docx` 是原始主稿和格式母版，不覆盖。
+- `current/毕业论文正式版（润色回填）.docx` 是当前 Word 工作稿，后续格式终审优先检查。
+- `current/thesis-polished.md` 是当前 Markdown 润色基准稿。
+- `docs/` 只放项目公开文档和 README 展示图，不放论文过程材料。
+- `thesis-handbook/` 只放毕设流程手册和模板，不放实际论文产物。
+- Demo Twin 测试数据只代表本机回环演示环境，不代表真实公网 LLM 性能。
 - 新增截图、图表、测试或代码证据后，应同步更新 `final-evidence-lock.md`。
 - 新增或修改图表编号时，统一使用 `图3.1`、`表5.1` 点号格式，不使用空格或连字符格式。
-- 新增阶段报告应优先使用日期命名，并在完成后视为阶段记录，不要替代总控文件。
-- 不提交 Office 临时锁文件、一次性 ZIP 包和本地备份文件。
 
-## 不建议现在移动的内容
+## 当前阶段
 
-- 不建议移动 dated 阶段记录，避免破坏已存在的交叉引用。
-- 不建议再次重命名 `毕业论文正式版（草稿）.docx`，避免后续提交和答辩材料路径混乱。
-- 不建议删除旧清稿报告，除非论文终稿和答辩材料均已完成。
-
-## 仍需人工确认
-
-- 封面和诚信责任书中的指导教师、签名、日期等人工字段。
-- 是否需要真实公网 LLM 性能测试。
-- 是否需要按导师要求调整答辩 PPT 页数和结构。
-- 是否有额外提交命名或学院补充格式要求。
-
-## 当前任务书口径
-
-- 已读取的论文设计管理办法当前未将任务书列入论文主稿装订顺序。
-- 任务书不再作为当前终稿阻塞项或主稿占位项维护。
-- 若学院、导师或系统提交页面另行要求任务书，再作为单独归档附件处理，不并入当前论文主稿口径。
+- 当前阶段：终稿人工字段核查、Word 域更新、格式终审与答辩 PPT 制作。
+- 当前卡点：封面和诚信责任书中的指导教师、签名、日期等人工字段仍需确认；Word 目录域、页码、页眉页脚、图题表题和参考文献格式仍需终审。
+- 如导师要求真实性能对比，再单独采集真实公网 LLM 性能数据。

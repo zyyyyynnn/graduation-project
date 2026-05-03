@@ -1,6 +1,6 @@
 # 第一轮低风险清稿记录
 
-> 历史记录：本文件保留早期低风险清理过程，不作为当前状态依据。当前图表编号、测试证据和终稿卡点以 `thesis-control.md`、`figure-table-register.md`、`final-supplement-checklist.md` 和 `final-evidence-lock.md` 为准。
+> 历史记录：本文件保留早期低风险清理过程，不作为当前状态依据。当前图表编号、测试证据和终稿卡点以 `thesis-control.md`、`evidence/figure-table-register.md`、`final-supplement-checklist.md` 和 `final-evidence-lock.md` 为准。
 
 ## 本轮范围
 
@@ -8,9 +8,9 @@
 
 已处理章节：
 
-- 第一章 `chapter-01-introduction-draft.md`
-- 第二章 `chapter-02-related-tech-draft.md`
-- 第六章 `chapter-06-conclusion-abstract-draft.md`
+- 第一章 `drafts/chapter-01-introduction-draft.md`
+- 第二章 `drafts/chapter-02-related-tech-draft.md`
+- 第六章 `drafts/chapter-06-conclusion-abstract-draft.md`
 
 ## 本轮已完成的清理
 

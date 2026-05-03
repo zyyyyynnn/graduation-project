@@ -1,20 +1,20 @@
 # 全卷打磨与格式核查报告
 
-> 历史记录：本文件保留早期格式核查结论，不作为当前状态依据。当前封面、诚信责任书、图表编号、测试证据和终稿卡点以 `thesis-control.md`、`final-supplement-checklist.md`、`figure-table-register.md` 和 `final-evidence-lock.md` 为准。
+> 历史记录：本文件保留早期格式核查结论，不作为当前状态依据。当前封面、诚信责任书、图表编号、测试证据和终稿卡点以 `thesis-control.md`、`final-supplement-checklist.md`、`evidence/figure-table-register.md` 和 `final-evidence-lock.md` 为准。
 
 ## 本轮检查范围
 
 本轮检查已覆盖以下内容：
 
-- 第一章草稿 `chapter-01-introduction-draft.md`
-- 第二章草稿 `chapter-02-related-tech-draft.md`
-- 第三章草稿 `chapter-03-analysis-design-draft.md`
-- 第四章草稿 `chapter-04-implementation-draft.md`
-- 第五章草稿 `chapter-05-testing-draft.md`
-- 第六章草稿 `chapter-06-conclusion-abstract-draft.md`
-- 学校要求包 `school-requirements-package.md`
+- 第一章草稿 `drafts/chapter-01-introduction-draft.md`
+- 第二章草稿 `drafts/chapter-02-related-tech-draft.md`
+- 第三章草稿 `drafts/chapter-03-analysis-design-draft.md`
+- 第四章草稿 `drafts/chapter-04-implementation-draft.md`
+- 第五章草稿 `drafts/chapter-05-testing-draft.md`
+- 第六章草稿 `drafts/chapter-06-conclusion-abstract-draft.md`
+- 学校要求包 `archive/legacy-reports/school-requirements-package.md`
 - 文献证据映射表 `literature-evidence-map.md`
-- 参考文献草稿库 `references-draft.bib`
+- 参考文献草稿库 `literature/references-draft.bib`
 
 ## 总体结论
 
@@ -68,7 +68,7 @@
 
 处理建议：
 
-1. 建立并维护 `figure-table-register.md`。
+1. 建立并维护 `evidence/figure-table-register.md`。
 2. 在第三章、第五章及答辩材料中统一图号、表号、图名与表名。
 
 #### 5. 全文仍保留明显草稿痕迹
@@ -93,7 +93,7 @@
 
 #### 7. 参考文献草稿库仍存在“待补”字段
 
-当前 `references-draft.bib` 已能作为工作底稿使用，但其中部分英文文献仍保留“卷期页码待补”等说明，尚未达到最终参考文献表的完成态。
+当前 `literature/references-draft.bib` 已能作为工作底稿使用，但其中部分英文文献仍保留“卷期页码待补”等说明，尚未达到最终参考文献表的完成态。
 
 处理建议：
 

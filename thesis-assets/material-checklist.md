@@ -55,7 +55,7 @@
 
 当前状态：
 - 基本齐备
-- 已有：`thesis-assets/bug-package-2026-04-24.md`、`thesis-assets/bug-evidence/bug-01-demo-proxy-evidence.md`、`thesis-assets/bug-evidence/bug-02-mysql-preflight-evidence.md`
+- 已有：`thesis-assets/evidence/bug-package-2026-04-24.md`、`thesis-assets/evidence/bug-evidence/bug-01-demo-proxy-evidence.md`、`thesis-assets/evidence/bug-evidence/bug-02-mysql-preflight-evidence.md`
 - 可选补充：若需要放入 PPT，可再补两张截图化证据页
 
 ## E. 答辩包
@@ -68,8 +68,8 @@
 
 当前状态：
 - 基本齐备
-- 已有：Demo Twin 演示链路、README 展示截图、GitHub 仓库门面、CI 验证入口、答辩材料包、PPT 页级映射表、5-8 分钟正式讲稿和 `贵州大学答辩PPT模板.pptx`
-- 仍需确认：正式 PPT 页数要求或导师指定答辩结构（如有）；正式 PPT 尚未生成和排版
+- 已有：Demo Twin 演示链路、README 展示截图、GitHub 仓库门面、CI 验证入口、答辩材料包、PPT 页级映射表和 5-8 分钟正式讲稿
+- 仍需确认：正式 PPT 页数要求或导师指定答辩结构（如有）；PPT 模板当前未入库，需人工重新提供或从历史提交恢复；正式 PPT 尚未生成和排版
 
 ## 最低开工集合
 

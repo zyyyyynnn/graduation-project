@@ -20,10 +20,10 @@
 | `thesis-control.md` | 移除任务书作为当前卡点和 P0 阻塞项；保留封面、诚信责任书、目录页码为终稿阻塞项 | 通过 |
 | `final-supplement-checklist.md` | 从历史补料项中移除任务书；新增“本轮移除项”说明任务书仅在学院另行要求时作为独立附件处理 | 通过 |
 | `thesis-assets/README.md` | 更新主文件说明、仍需人工确认项和当前任务书口径 | 通过 |
-| `school-requirements-package.md` | 移除页码要求和待确认事项中与任务书相关的表述 | 通过 |
-| `chapter-04-implementation-draft.md` | 在 4.2 与 4.3 增补用户级模型配置连通性测试、简历解析输入长度保护说明 | 通过 |
-| `chapter-05-testing-draft.md` | 新增 LLM 配置连通性测试说明；当前不新增独立测试编号 | 通过 |
-| `chapter-06-conclusion-abstract-draft.md` | 新增工程稳定性总结、单用户本机验证边界、模型降级和报告结构化输出展望 | 通过 |
+| `archive/legacy-reports/school-requirements-package.md` | 移除页码要求和待确认事项中与任务书相关的表述 | 通过 |
+| `drafts/chapter-04-implementation-draft.md` | 在 4.2 与 4.3 增补用户级模型配置连通性测试、简历解析输入长度保护说明 | 通过 |
+| `drafts/chapter-05-testing-draft.md` | 新增 LLM 配置连通性测试说明；当前不新增独立测试编号 | 通过 |
+| `drafts/chapter-06-conclusion-abstract-draft.md` | 新增工程稳定性总结、单用户本机验证边界、模型降级和报告结构化输出展望 | 通过 |
 
 ## 三、任务书口径 Review
 
@@ -44,8 +44,8 @@
 ### 已完成
 
 - 正文引用样式仍保持 `[1]`、`[1-2]`、`[3,5-7]` 形式。
-- `chapter-06-conclusion-abstract-draft.md` 中新增展望段落的引用编号已按当前 `references-draft.bib` 口径调整。
-- `references-draft.bib` 保持为参考文献工作库，字段不完整文献不强行补造。
+- `drafts/chapter-06-conclusion-abstract-draft.md` 中新增展望段落的引用编号已按当前 `literature/references-draft.bib` 口径调整。
+- `literature/references-draft.bib` 保持为参考文献工作库，字段不完整文献不强行补造。
 
 ### 仍需人工终稿处理
 

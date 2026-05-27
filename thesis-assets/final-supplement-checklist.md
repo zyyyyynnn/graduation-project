@@ -20,6 +20,8 @@
 | 答辩 PPT 模板 | 学校答辩 PPT 模板 | `thesis-assets/defense/贵州大学答辩PPT模板.pptx` | 当前未入库；需人工重新提供或从历史提交恢复 |
 | 新增实现口径 | 简历解析输入长度保护、LLM 配置连通性测试、不足与展望补充 | `thesis-assets/drafts/chapter-04-implementation-draft.md`、`thesis-assets/drafts/chapter-05-testing-draft.md`、`thesis-assets/drafts/chapter-06-conclusion-abstract-draft.md` | 已补入章节草稿 |
 | 封面与诚信责任书 | 封面页和诚信责任书已并入当前主稿 | `thesis-assets/毕业论文正式版（草稿）.docx` | 已补齐；仍需人工填写或确认签名、日期、指导教师等字段 |
+| 真实公网 LLM 性能 | `TC-01` 到 `TC-11` 功能与公网 MIMO API 性能数据测试结果 | `thesis-assets/evidence/test-data/mimo-real-test-2026-05-27.md` | 已完成 |
+
 
 ## B. 本轮新增整合项
 
@@ -50,7 +52,7 @@
 
 | 类别 | 当前口径 | 是否阻塞终稿 |
 | --- | --- | --- |
-| 真实公网 LLM 性能 | 当前第五章仅采用 Demo Twin 本机闭环测试数据；公网模型响应性能受网络、模型服务负载和上下文长度影响，后续如需要性能对比再单独采集。 | 不阻塞当前草稿；仅在导师要求性能对比时补充 |
+| 无 | 本轮已全部完成真实公网 LLM 性能与全链路测试验证 | 否 |
 
 ## F. 可选补充项
 
